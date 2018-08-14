@@ -1,8 +1,3 @@
-/*
- * Dark Theme by Pepa Linha [http://webdream.cz]
- * @version 1.0.0
- */
-
 html,
 body {
     height: 100%;
@@ -12,6 +7,16 @@ body {
     font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     background: #312f42;
     color: #fff;
+}
+
+.footer {
+ position:sticky;
+ bottom:0;
+ margin-right:-20px;
+}
+.footer > div {
+ background:#312f42;
+ padding:0 0 .5em;
 }
 
 h1 {
